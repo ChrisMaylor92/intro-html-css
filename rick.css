@@ -1,14 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   box-sizing: border-box;
 }
 /*css comment*/
 
 body {
-  color: #86f486;
-  background-color: #9c46f3;
-  width: 80%;
+  color: #141514;
+  background-color: #77c9db;
+  width: 90%;
   height: 80%;
   margin: auto;
   padding: 10px;
@@ -22,12 +22,17 @@ img {
   border-style: thick;
 }
 h1 {
-  color: #f34646;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
+  font-size: 60px;
+  font-family: "calibri", sans-serif;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 h2 {
-  color: #f046f3;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
+  font-family: "calibri", sans-serif;
 }
 a {
   font-size: 1.3rem;
@@ -42,15 +47,52 @@ ul {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #adf321;
-  padding: 3px;
-  margin: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  row-gap: 20px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
   font-size: 10px;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#bio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgb(250 250 250);
+  font-size: 37px;
+}
+
+#bio-paragraphs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.divider {
+  border-bottom: 1px solid #f4f5f0;
+}
+
+.grid-title {
+  margin-bottom: 5px;
   text-align: center;
+  font-size: 37px;
+}
+
+li {
+  text-align: left;
+  font-size: 20px;
 }
